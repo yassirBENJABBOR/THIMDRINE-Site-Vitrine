@@ -352,4 +352,11 @@ footer {
   flex-wrap: wrap;
 }
 
+ /* 7. ajustement de la page */
+
+@media(min-width: 500px){
+    body{
+    zoom:4;
+  }
+}
 
