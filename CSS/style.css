@@ -205,9 +205,8 @@ nav a:hover {
   margin: 2rem auto;
   padding: 0 1rem;
   display: flex;
-  justify-content: center;
+justify-content: space-between;
   flex-wrap: wrap;
-  gap:1rem;
 }
 
 
@@ -263,4 +262,29 @@ nav a:hover {
 
 
 
+   /* 7. sec4 */
+
+.sec4 {
+  max-width: 100%;
+  background-color: var(--primary-color);
+  color: #ffffff;
+  padding: 2.5rem 2rem;
+  text-align: center;
+}
+
+.sec4 h2 {
+  font-size: 1.4rem;
+  margin-bottom: 0.6rem;
+}
+
+.sec4 p {
+  font-size: 0.85rem;
+  margin-bottom: 1.2rem;
+}
+
+.sec4 .btn-1 {
+  background-color: #ffffff;
+  color: var(--secondary-color);
+  border: none;
+}
 
