@@ -1,0 +1,28 @@
+
+/* 1.la charte*/
+:root {
+  --primary-color: #A62B17;
+  --primary-hover: #852212;
+  --secondary-color: #cc9253;
+  --bg-color: #F8F5EE;
+  --card-bg: #FFFFFF;
+  --text-main: #222222;
+  --text-muted: #555555;
+  --radius: 6px;
+  --shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-main);
+  font-family: sans-serif;
+}
+
+
+
