@@ -116,5 +116,38 @@ nav a:hover {
   border-radius: var(--radius);
   box-shadow: var(--shadow);
 }
+   /* 4. les bouton */
+
+.btn {
+  display: inline-block;
+  padding: 0.6rem 1.3rem;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 770;
+}
+
+.btn-1 {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  border: 1px solid var(--primary-color);
+}
+
+.btn-1:hover {
+  background-color: var(--primary-hover);
+}
+
+.btn-2 {
+  background-color: transparent;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.btn-outline {
+  background-color: #ffffff;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  padding: 0.55rem 1.3rem;
+}
 
 
