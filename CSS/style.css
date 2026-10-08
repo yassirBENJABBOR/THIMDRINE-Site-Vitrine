@@ -288,3 +288,54 @@ justify-content: space-between;
   border: none;
 }
 
+   /* 8. FOOTER */
+
+footer {
+  background-color: #181818;
+  color: #ffffff;
+  padding: 2.5rem 1rem 1rem;
+  width: 100%;
+}
+
+.footer {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.footer-par h3 {
+  color: var(--secondary-color);
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+}
+
+.footer-par p,
+.footer-par a {
+  font-size: 0.8rem;
+  color: #cccccc;
+  line-height: 1.7;
+  
+}
+
+.footer-par ul {
+  list-style: none;
+}
+
+.footer-par a:hover {
+  color: #ffffff;
+}
+
+.footer-end {
+  text-align: center;
+  margin-top: 2.5rem;
+  padding-top: 0.8rem;
+  border-top: 1px solid #282828;
+  font-size: 0.75rem;
+  color: #666666;
+}
+
+
