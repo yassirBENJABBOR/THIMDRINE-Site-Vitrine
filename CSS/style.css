@@ -339,3 +339,17 @@ footer {
 }
 
 
+
+/* sec3 hadi dyal la page nos produit */
+.products-grid {
+    text-align: center;
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.8rem;
+  flex-wrap: wrap;
+}
+
+
