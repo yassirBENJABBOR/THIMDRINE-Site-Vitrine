@@ -45,6 +45,7 @@ nav {
 .logo {
   display: flex;
   align-items: center;
+  margin-left: 2rem;
 }
 
 nav ul {
@@ -178,9 +179,11 @@ nav a:hover {
  /* 6. produit sec3  */
 
 .sec3 {
+        background-color: #ffdead;
+
   max-width: 1100px;
-  margin: 2.5rem auto;
-  padding: 0 1rem;
+  margin:  auto;
+  padding: 2rem 1rem;
   text-align: center;
 }
 
@@ -190,7 +193,6 @@ nav a:hover {
   font-weight: 700;
   color: var(--text-main);
   margin-bottom: 0;
-  text-align: center;
 }
 
 .sec3 > p {
@@ -351,12 +353,77 @@ footer {
   gap: 1.8rem;
   flex-wrap: wrap;
 }
+.products-grid h1{
+      margin: 2rem auto;
+  padding: 0 1rem;
+  width: auto;
+
+
+}
 
  /* 7. ajustement de la page */
 
 @media(min-width: 500px){
     body{
-    zoom:5;
+    zoom:5.5;
   }
 }
+/* apropos */
+.apropos-title{
+    text-align: center;
+  max-width: 1100px;
+  margin: 2rem auto;
+  padding:  1rem;
+}
 
+.apropos-title h1 {
+  color: var(--text-main);
+  font-size: 2rem;
+  font-weight: 800;
+}
+.apropos-image{
+  max-width: 80%;
+  margin: 1rem auto 2rem;
+  padding: 0 1rem;
+}
+.apropos-image img {
+  width: 100%;
+  border-radius: 20px;
+  display: block;
+}
+.apropos-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 4rem 5rem;
+  background-color: #ffe9c8;
+}
+.apropos-content h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 3rem;
+}
+.apropos-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}   
+.apropos-block{
+    max-width: 400px;
+    
+}
+.apropos-block h3 {
+  color: #31543a;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+.apropos-block ul {
+  padding-left: 1.2rem;
+}
+.apropos-block li {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  line-height: 1.6;
+  margin-bottom: 0.7rem;
+}
