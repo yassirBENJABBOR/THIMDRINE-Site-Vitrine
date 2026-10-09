@@ -477,7 +477,7 @@ footer {
 
   padding: 0.45rem;
   margin-bottom: 0.5rem;
-  border: 2px solid #333;
+border: 2px solid #333;
   border-radius: 4px;
   font-family: sans-serif;
 }
@@ -487,8 +487,21 @@ footer {
 .contact-form button {
   width: auto;
   margin-left: auto;
-  margin-top: 0.5rem;
+    margin-top: 0.5rem;
 }
 
 
+.contact-info {
+  height: fit-content;
+}
 
+.contact-info ul {
+  padding-left: 1.2rem;
+}
+
+
+.contact-info li {
+    margin-bottom: 2.5rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
